@@ -1,0 +1,41 @@
+body {
+  height: 800px;
+  background-image: url("https://c.static-nike.com/a/images/w_1920,c_limit/mdbgldn6yg1gg88jomci/image.jpg");
+  background-size: cover;
+  background-size: 25rem;
+  background-repeat: repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.titulo {
+  text-align: center;
+  color: aliceblue;
+  margin-bottom: 30px;
+}
+
+.productos {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  margin-left: 60px;
+}
+.descripcion {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  color: aliceblue;
+  margin-left: 60px;
+}
+.precio {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  color: aliceblue;
+  margin-left: 60px;
+}
+.agregar-al-carrito {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+}
+img {
+  height: 200px;
+  width: 200px;
+}
