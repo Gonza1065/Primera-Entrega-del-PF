@@ -39,3 +39,43 @@ img {
   height: 200px;
   width: 200px;
 }
+.formulario {
+  display: grid;
+  grid-template-columns: 2, 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+  
+}
+.formulario-de-contacto {
+  margin-top: 30px;
+  color: azure;
+}
+.nombre {
+  margin-top: 30px;
+  color: azure;
+}
+.apellido {
+  margin-top: 30px;
+  color: azure;
+}
+.titulo-del-texto {
+  margin-bottom: 10px;
+  color: azure;
+}
+.texto {
+  margin-bottom: 30px;
+  margin-top: 20px;
+  
+}
+.email {
+  margin-top: 30px;
+  color: azure;
+}
+.enviar-mensaje {
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+

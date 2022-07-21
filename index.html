@@ -38,19 +38,72 @@
             <h6>Precio: $4000</h6>
             <h6>Precio: $20000</h6>
         </div>
-        <div class="agregar-al-carrito">
+        <div id="agregar" class="agregar-al-carrito">
             <button>Agregar al carrito</button>
             <button>Agregar al carrito</button>
             <button>Agregar al carrito</button>
             <button>Agregar al carrito</button>
         </div>
-
-
-
-
-
-
-
-        <script src="js/main.js"></script>
-    </body>
-</html>
+        <form>
+            <fieldset>
+                <div class="formulario">
+                    <!-- Formulario -->
+                    <div class="formulario-de-contacto">
+                        <legend>
+                            <strong>Ultimo paso</strong>
+                        </legend>
+                    </div>
+                    <div class="nombre">
+                        <label for="nombre_apellido">Nombre:</label>
+                        <input
+                            id="nombre"
+                            type="text"
+                            name="nombre"
+                            placeholder="Escriba su nombre aqui
+                        "
+                        >
+                    </div>
+                    <div class="apellido">
+                        <label for="nombre_apellido">Apellido:</label>
+                        <input
+                            id="apellido"
+                            type="text"
+                            name="apellido"
+                            placeholder="Escribe su apellido aqui
+                        "
+                        >
+                    </div>
+                    <div class="email">
+                        <label for="email">Email:</label>
+                        <input
+                            id="email"
+                            type="text"
+                            name="email"
+                            placeholder="Escriba su email aqui
+                        "
+                        >
+                    </div>
+                    <div class="texto">
+                        <div class="titulo-del-texto">
+                            ¿Que piensas sobre nuestra pagina?
+                        </div>
+                        <textarea
+                            id="mensaje"
+                            name="text"
+                            cols="150"
+                            rows="10"
+                            placeholder="Escriba su mensaje aqui
+                        "
+                        ></textarea>
+                        <div id = "enviarMensaje"class="enviar-mensaje">
+                            <input type="submit" value="Enviar mensaje">
+                        </div>
+                        <div>
+                            <input type="reset" value="Limpiar mensaje">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="js/main.js"></script>
+        </body>
+    </html>
