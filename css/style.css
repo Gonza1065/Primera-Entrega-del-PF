@@ -1,12 +1,55 @@
 body {
   height: 800px;
   background-image: url("https://c.static-nike.com/a/images/w_1920,c_limit/mdbgldn6yg1gg88jomci/image.jpg");
-  background-size: cover;
-  background-size: 25rem;
+  background-position: center;
   background-repeat: repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-blend-mode: luminosity;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+button {
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: center;
+  padding: 30px 10%;
+}
+.nav__links {
+  list-style: none;
+}
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3 ease 0s;
+}
+.nav__links img {
+  height: 120px;
+  width: 200px;
+  margin-right: 280px;
+}
+.nav__links li a:hover {
+  color: #0088a9;
+}
+button {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  transition: all 0.3 ease 0s;
+}
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
 }
 .titulo {
   text-align: center;
@@ -45,8 +88,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  
-  
 }
 .formulario-de-contacto {
   margin-top: 30px;
@@ -67,7 +108,6 @@ img {
 .texto {
   margin-bottom: 30px;
   margin-top: 20px;
-  
 }
 .email {
   margin-top: 30px;
@@ -77,5 +117,3 @@ img {
   margin-bottom: 10px;
   margin-top: 15px;
 }
-
-
